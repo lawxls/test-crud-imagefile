@@ -14,7 +14,16 @@ def image_file_path(instance, filename):
 
 class Image(models.Model):
     title = models.CharField(max_length=255)
-    image = models.ImageField(upload_to=image_file_path)
+    imagefile = models.ImageField(upload_to=image_file_path)
 
     def __str__(self):
         return self.title
+
+
+class Comment(models.Model):
+    name = models.CharField(max_length=55)
+    body = models.TextField()
+    image_post = models.ForeignKey('Image', related_name='comments', on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.name
