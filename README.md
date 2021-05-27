@@ -10,7 +10,7 @@
 `redoc/`
 
 <p style='text-align: left;'> ✅ Набор CRUD методов для работы с произвольным файлом изображения. </p>
-<p style='text-align: left;'> ✅ Набор CRUD методов для работы с комментарием к ранее созданному изображению. </p>
+<p style='text-align: left;'> ✅ Набор CRUD методов для работы с комментариями к ранее созданному изображению. </p>
 <p style='text-align: left;'> ✅ Реализовать метод /stat. </p>
 <p style='text-align: left;'> ✅ Docker и docker-compose. </p>
 <p style='text-align: left;'> ✅ Несколько базовых тестов. </p>
